@@ -1,0 +1,16 @@
+﻿Build started 9/5/2022 12:10:13 PM.
+     1>Project "D:\The Messiah\TheMessiah\TheMessiah.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (iGraphics Project.vcxproj, Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt iMain.cpp
+         iMain.cpp
+     1>d:\the messiah\themessiah\variables.h(27): warning C4129: 'P' : unrecognized character escape sequence
+     1>d:\the messiah\themessiah\variables.h(27): warning C4129: 's' : unrecognized character escape sequence
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\The Messiah\Debug\TheMessiah.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\The Messiah\Debug\TheMessiah.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\The Messiah\Debug\TheMessiah.lib" /MACHINE:X86 Debug\iMain.obj
+         TheMessiah.vcxproj -> D:\The Messiah\Debug\TheMessiah.exe
+     1>Done Building Project "D:\The Messiah\TheMessiah\TheMessiah.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.78

@@ -1,0 +1,2 @@
+Copy the .lib files in this folder to
+"C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Lib"
